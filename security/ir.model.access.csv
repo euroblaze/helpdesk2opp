@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_crm_lead_special,access.crm.lead,model_crm_lead,,1,1,1,1
+access_helpdesk_special,access.helpdesk.ticket,model_helpdesk_ticket,,1,1,1,1
+access_helpdesk_wizard,access.create.crm.wizard,model_create_crm_wizard,,1,1,1,1
+access_helpdesk_wizard_link,access.link.crm.wizard,model_link_crm_wizard,,1,1,1,1
+access_helpdesk_wizard_open,access.open.crm.wizard,model_open_crm_wizard,,1,1,1,1

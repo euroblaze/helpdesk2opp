@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="link_crm_wizard_view_form" model="ir.ui.view">
+        <field name="name">Link CRM Record</field>
+        <field name="model">link.crm.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Link CRM Opportunity">
+                <div>
+                    Link this ticket to an existing Opportunity
+                </div>
+                <hr></hr>
+                <h2>
+                    <strong>CRM Opportunity: </strong><field name="opportunity_ids"/>
+                </h2>
+                <footer>
+                    <button string="Apply" name="action_apply" type="object" class="btn-primary"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

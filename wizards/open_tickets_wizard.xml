@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="open_crm_wizard_view_form" model="ir.ui.view">
+        <field name="name">Open CRM Record</field>
+        <field name="model">open.crm.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Open CRM Opportunity">
+                <div style="text-align:center">
+                    Tickets that are linked to this Opportunity
+                </div>
+                <hr/>
+                <field name="ticket_ids" readonly="1"/>
+                <hr/>
+            </form>
+        </field>
+    </record>
+</odoo>
