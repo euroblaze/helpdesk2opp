@@ -1,5 +1,5 @@
 {
-    'name': 'Enveseur Helpdesk to Opportunity Link',
+    'name': 'Helpdesk to Opportunity Link',
     'version': '1.0',
     'category': 'Extra Tools',
     'summary': 'Adds button to connect Helpdesk tickets to CRM Opportunities',
